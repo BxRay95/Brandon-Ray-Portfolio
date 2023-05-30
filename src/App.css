@@ -1,38 +1,65 @@
-.App {
-  text-align: center;
+*{
+    color: rgb(255, 255, 255);
+    font-family: 'Libre Baskerville', Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+html body {
+    margin: 0;
+    background-color: #1b1b1b;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+.menu {
+    height: 75px;
+    width: 100%;
+    background-color:rgba(0, 0, 0, 0.904);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.menu-bar {
+    font-size: xx-large;
+    margin-top: 15px;
 }
 
-.App-link {
-  color: #61dafb;
+.navbar-links {
+    padding-top: 7px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+nav {
+    display: flex;
+    position: fixed;
+    justify-content: space-between;
+    padding-left: 7.5%;
+    padding-right: 10%;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+    z-index: 999;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: x-large;
+    z-index: 999;
+}
+
+nav ul li a:hover {
+    color: #ea1538;
+    transition: .3s;
 }
