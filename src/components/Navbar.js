@@ -13,6 +13,7 @@ const CustomNavbar = () => {
                         <li><a href="#my-projects">My Projects</a></li>
                         <li><a href="#resume">Resume</a></li>
                         <li><a href="#contact-me">Contact Me</a></li>
+                        
                     </ul>
                 </nav>
             </div>
