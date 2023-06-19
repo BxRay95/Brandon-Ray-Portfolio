@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/static/css/main.064796b0.css",
+    "main.js": "/static/js/main.2134a5d2.js",
+    "static/js/787.001876eb.chunk.js": "/static/js/787.001876eb.chunk.js",
+    "static/media/TreasureHuntGame.mp4": "/static/media/TreasureHuntGame.e7539b7b32ae1a5dad8d.mp4",
+    "static/media/Pokellection.mp4": "/static/media/Pokellection.da85f197b2ac9f759d5c.mp4",
+    "static/media/Img1Portfolio.jpg": "/static/media/Img1Portfolio.42c604c40a678703c664.jpg",
+    "static/media/Me.png": "/static/media/Me.23bd66173547531d2e67.png",
+    "index.html": "/index.html",
+    "main.064796b0.css.map": "/static/css/main.064796b0.css.map",
+    "main.2134a5d2.js.map": "/static/js/main.2134a5d2.js.map",
+    "787.001876eb.chunk.js.map": "/static/js/787.001876eb.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.064796b0.css",
+    "static/js/main.2134a5d2.js"
+  ]
+}
