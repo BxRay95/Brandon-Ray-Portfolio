@@ -11,7 +11,7 @@ const CustomNavbar = () => {
                     <ul className='navbar-links'>
                         <li><a href="#">Home</a></li>
                         <li><a href="#my-projects">My Projects</a></li>
-                        <li><a href="#resume">Resume</a></li>
+                        <li><a href="https://drive.google.com/file/d/1tOoXL4yoXb5Xppq-7tHU96SD0ooEd9Dj/view?usp=sharing" target='_blank'>Resume</a></li>
                         <li><a href="#contact-me">Contact Me</a></li>
                         
                     </ul>

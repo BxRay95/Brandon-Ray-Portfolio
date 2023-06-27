@@ -11,6 +11,7 @@ html body {
     -webkit-tap-highlight-color: transparent;
 }
 
+/* Navbar Section */
 
 .menu {
     height: 75px;
@@ -64,6 +65,8 @@ nav ul li a:hover {
     transition: .3s;
 }
 
+/* Home Page Section */
+
 section {
     position: relative;
     display: grid;
@@ -93,12 +96,12 @@ section {
 
 .short-motivation {
     max-width: 650px;
+    padding-bottom: 25px;
 } 
 
 .button {
     text-decoration: none;
-    margin-left: 125px;
-    width: 250px;
+    width: 150px;
     height: 50px;
     justify-content: center;
     display: flex;
@@ -110,11 +113,22 @@ section {
     border: solid white;
     font-weight: bold;
     color: white;
+    box-shadow: 8px 10px 6px 4px rgba(0,0,0,0.75);
+-webkit-box-shadow: 8px 10px 6px 4px rgba(0,0,0,0.75);
+-moz-box-shadow: 8px 10px 6px 4px rgba(0,0,0,0.75);
 }
 
 .button:hover {
     color: #ea1538;
-    transition: .3s; 
+    background-color: white;
+    transition: 1s; 
+}
+
+.tech-stack-container {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: -1050px;
+    margin-top: -150px;
 }
 
 
@@ -123,17 +137,17 @@ section {
     padding-top: 350px;
 }
 
-.self-image img {
+.self-image {
     display: flex;
-    width: 250px;
-    height: 250px;
+    width: 300px;
+    height: 300px;
     object-fit: cover;
     background-color: rgb(190, 186, 186);
-    border-radius: 50%;
+    border-radius: 200px;
     position: relative;
     z-index: 0;
-    margin-top: -550px;
-    margin-left: 1450px;
+    margin-top: -575px;
+    margin-left: 1425px;
     margin-right: 150px;
 }
 
@@ -178,7 +192,7 @@ section {
 
 .view-project-button {
     text-decoration: none;
-    margin-left: 225px;
+    margin-left: 15px;
     width: 150px;
     height: 50px;
     justify-content: center;
@@ -191,6 +205,15 @@ section {
     border: solid white;
     font-weight: bold;
     color: white;
+    box-shadow: 8px 10px 6px 4px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 8px 10px 6px 4px rgba(0,0,0,0.75);
+    -moz-box-shadow: 8px 10px 6px 4px rgba(0,0,0,0.75);
+}
+
+.view-project-button:hover {
+    color: #ea1538;
+    background-color: white;
+    transition: 1s; 
 }
 
 .pokellection-project-container {
@@ -201,7 +224,8 @@ section {
     padding-bottom: 15px;
 }
 
-.view-project-button:hover {
-    color: #ea1538;
-    transition: .3s; 
+.view-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
