@@ -21,7 +21,7 @@ const HomePage = () => {
                     </div>
                     <div>
                         <div className="self-image-grey-container">
-                            <p className="about-me-text"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, tenetur enim ratione neque maxime ipsam pariatur totam laudantium quos quaerat? </p>
+                            <p className="about-me-text"> Former Air Force Electrician with a background in Information Technology and drive to always learn more. In my free time I enjoy hiking and spending time at the lake or travelling. Feel free to connect and thank you for viewing my website. </p>
                         </div>           
                         <img src={Me} className="self-image" alt="My Self Image" height="2572px" width="3456px"/>     
                     </div>

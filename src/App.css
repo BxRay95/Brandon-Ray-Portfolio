@@ -84,7 +84,7 @@ section {
 
 .intro-name {
     display: flex;
-    font-size: x-large;
+    font-size: xx-large;
     justify-content: left;
 }
 
@@ -97,6 +97,7 @@ section {
 .short-motivation {
     max-width: 650px;
     padding-bottom: 25px;
+    font-size: 23px;
 } 
 
 .button {
@@ -132,10 +133,10 @@ section {
     margin-top: -150px;
 }
 
-
 .about-me-text {
     text-align: center;
-    padding-top: 350px;
+    padding-top: 345px;
+    max-width: 328px;
 }
 
 .self-image {
@@ -285,6 +286,9 @@ section {
     border-radius: 2rem;
     text-align: center;
     transition: .3s ease;
+    box-shadow: 8px 10px 6px 4px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 8px 10px 6px 4px rgba(0,0,0,0.75);
+    -moz-box-shadow: 8px 10px 6px 4px rgba(0,0,0,0.75);
 }
 .skills-container div:hover {
     color: #ea1538;
