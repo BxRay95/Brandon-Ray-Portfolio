@@ -36,17 +36,7 @@ const HomePage = () => {
                             </p> 
                         </div>
                         <a href="#my-projects" className="button">View My Work</a>
-                    </div>
-                    <div className='tech-stack-container'>
-                        <img src={javascript} alt="javascript-logo" height="100px" width="100px"/>
-                        <img src={CSS} alt="css-logo" height="100px" width="75px"/>
-                        <img src={html} alt="html-logo" height="100px" width="100px"/>
-                        <img src={kotlin} alt="kotlin-logo" height="100px" width="100px"/>
-                        <img src={rails} alt="rails-logo" height="100px" width="100px"/>
-                        <img src={ruby} alt="ruby-logo" height="100px" width="100px"/>
-                        <img src={reactlogo} alt="react-logo" height="100px" width="100px"/>
-                    </div>
-                
+                    </div>                
             </section>
         </>
     );
