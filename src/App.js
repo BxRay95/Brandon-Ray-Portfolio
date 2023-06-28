@@ -3,6 +3,7 @@ import CustomNavbar from './components/Navbar';
 import './App.css'
 import HomePage from './components/HomePage';
 import MyProjects from './components/MyProjects';
+import ContactMe from './components/ContactMe';
 
 const App = () => {
   return (
@@ -10,6 +11,7 @@ const App = () => {
       <CustomNavbar />
       <HomePage />
       <MyProjects />
+      <ContactMe />
     </div>
   );
 }
