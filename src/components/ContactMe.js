@@ -28,13 +28,13 @@ const ContactMe = () => {
             <h1 className='contact-me-header'>Contact Me</h1>
             <div className='form-container'>
                 <form ref={form} onSubmit={sendEmail}>
-                    <label className='label' >Name</label>
-                    <input className='textarea' type="text" name="user_name" />
+                    <label className='label'>Name</label>
+                    <input className='textarea' type="text" name="user_name" placeholder="Enter your name" />
                     <label className='label'>Email</label>
-                    <input className='textarea' type="email" name="user_email" />
+                    <input className='textarea' type="email" name="user_email" placeholder="Enter your email"/>
                     <label className='label' >Message</label>
-                    <textarea className='textarea' name="message" />
-                    <input className='input' type="submit" value="Send" />
+                    <textarea className='textarea' name="message" placeholder="Enter your message" />
+                    <input className='input' type="submit" value="Send"/>
                 </form>
             </div>
         </section>
